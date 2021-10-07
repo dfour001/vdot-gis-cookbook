@@ -1,8 +1,8 @@
 #===============================================================================
 # Find Begin and End MP of a Line
 #===============================================================================
-# Given an input of a line geometry, how do I find the begin and end point of
-# the line on the LRS?
+# Given a line geometry, how do I find the begin and end point of the line
+# on the LRS?
 # 
 # This is fairly straitforward if you know the rte_nm that the output event should
 # be on.  You simply need to find the coordinates of the input geometry's begin 

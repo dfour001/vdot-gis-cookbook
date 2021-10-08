@@ -21,13 +21,13 @@
 # log level to INFO, it will include INFO, WARNING, ERROR, and CRITICAL
 # messages. NOTSET and DEBUG messages will not be included here.
 #
-# Level	Numeric value
+# Level	    Numeric value
 # CRITICAL	50
 # ERROR	    40
-# WARNING	30
+# WARNING	  30
 # INFO	    20
 # DEBUG	    10
-# NOTSET	0
+# NOTSET	  0
 # 
 #===============================================================================
 # Written for Python 3.7

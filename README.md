@@ -16,7 +16,7 @@ These are small snippets of code that will demonstrate how to accomplish a speci
 - [Selecting routes within a distance of a point](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/GeoPandas/select_nearby_routes.py) - How do find the rte_nm values in the lrs within a specific distance of a point?
 
 
-### Misc Python
+#### Misc Python
 - [Setting up logging](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/misc/logging_setup.py) - How do I use the logging module to write to a log file?
 
 ## Online Courses

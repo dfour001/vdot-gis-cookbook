@@ -16,7 +16,7 @@ These are small snippets of code that will demonstrate how to accomplish a speci
 - [Selecting routes within a distance of a point](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/GeoPandas/select_nearby_routes.py) - How do find the rte_nm values in the lrs within a specific distance of a point?
 
 ## Online Courses
-This section isn't specific to VDOT's LRS, but lists free online courses that are relevant to a GIS analyst at VDOT
+This section isn't specific to VDOT, but lists free online courses that are relevant to a GIS analyst at VDOT
 
 - [The Nature of Geographic Information](https://www.e-education.psu.edu/natureofgeoinfo/) - An "Open Geospatial Textbook" that promotes understanding of the Geographic Information Science and Technology enterprise (GIS&T, also known as "geospatial").
 - [Spatial Data Analytics for Transportation](https://www.e-education.psu.edu/geog855/node/508) - From Penn State, this course explores the important role GIS plays in the transportation industry. This interdisciplinary field is often referred to GIS-T. There is a natural synergy between GIS and transportation and, as a result, GIS-T has given rise to a number of specialized techniques and a wide variety of applications.

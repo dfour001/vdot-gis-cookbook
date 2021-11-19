@@ -18,6 +18,16 @@ These are small snippets of code that will demonstrate how to accomplish a speci
 
 #### Misc Python
 - [Setting up logging](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/misc/logging_setup.py) - How do I use the logging module to write to a log file?
+- [Sort list of class instances](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/misc/class_sorting.py) - How do I sort a list of class instances by an attribute?
+
+
+## Conflation Resources
+Data conflation is the bane of DOT GIS analysts.  You may have great data in one network dataset and need to match it with data in another network dataset, but how do you match the data between the two networks?  Like the foolish alchemist's attempts to turn lead into gold, I'm trying to create an automated conflation tool of reasonable accuracy.  Here are some resources showing methods that others have successfully used and that I have found helpful.
+- [The ABC’s of Conflation: TMC, LRS, OSM – What Happens When You Muck It Up](https://www.youtube.com/watch?v=LXweP-jKMoA) - A presentation from the Eastern Transportation Coalition with multiple conflation methods.
+- [An optimisation model for linear feature matching in geographical data conflation](https://people.geog.ucsb.edu/~good/papers/510.pdf)
+- [Automatic and Accurate Conflation of Different Road-Network Vector Data towards Multi-Modal Navigation](https://www.mdpi.com/2220-9964/5/5/68/htm)
+- [A Conflation Methodology for Two GIS Roadway Networks and Its Application in Performance Measurements](https://journals.sagepub.com/doi/full/10.1177/0361198118793000)
+
 
 ## Online Courses
 This section isn't specific to VDOT, but lists free online courses that are relevant to a GIS analyst at VDOT

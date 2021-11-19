@@ -21,6 +21,11 @@ These are small snippets of code that will demonstrate how to accomplish a speci
 - [Sort list of class instances](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/misc/class_sorting.py) - How do I sort a list of class instances by an attribute?
 
 
+## ArcGIS Pro Python Window Functions
+These are functions that can be copy/pasted into the python window of ArcGIS Pro.
+- [Open Google StreetView on line centerpoint](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/ProFunctions/StreetviewFromLine.py) - With a single segment of a specified line selected, this function will open the midpoint of that line in Google StreetView in a new browser window.
+
+
 ## Conflation Resources
 Data conflation is the bane of DOT GIS analysts.  You may have great data in one network dataset and need to match it with data in another network dataset, but how do you match the data between the two networks?  Like the foolish alchemist's attempts to turn lead into gold, I'm trying to create an automated conflation tool of reasonable accuracy.  Here are some resources showing methods that others have successfully used and that I have found helpful.
 - [The ABC’s of Conflation: TMC, LRS, OSM – What Happens When You Muck It Up](https://www.youtube.com/watch?v=LXweP-jKMoA) - A presentation from the Eastern Transportation Coalition with multiple conflation methods.

@@ -24,6 +24,7 @@ These are small snippets of code that will demonstrate how to accomplish a speci
 ## ArcGIS Pro Python Window Functions
 These are functions that can be copy/pasted into the python window of ArcGIS Pro.
 - [Open Google StreetView on line centerpoint](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/ProFunctions/StreetviewFromLine.py) - With a single segment of a specified line selected, this function will open the midpoint of that line in Google StreetView in a new browser window.
+- [Zoom to a layer extent](https://github.com/dfour001/vdot-lrs-cookbook/blob/main/Python/ProFunctions/zoom_to_layer_extent.py) - This function will zoom the active map's extent to the selected features of the input layer.
 
 
 ## Conflation Resources

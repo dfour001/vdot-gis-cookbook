@@ -39,6 +39,17 @@ def get_point_mp(inputPointGeometry, lrs, rte_nm):
             for row in cur:
                 RouteGeom = row[0]
 
+        # Check for route multipart geometry.  If multipart, find closest part to
+        # ensure that the correct MP is returned
+        if RouteGeom.isMultipart:
+            # Get list of parts
+            parts = [arcpy.Polyline(RouteGeom[i], has_m=True) for i in range(RouteGeom.partCount)]
+
+            # Get distances from inputPolyline's mid-point to each route part
+            partDists = {inputPointGeometry.distanceTo(part):part for part in parts}
+
+            # Replace RouteGeom with closest polyline part
+            RouteGeom = partDists[min(partDists)]
 
         rteMeasure = RouteGeom.measureOnLine(inputPointGeometry)
         rtePosition = RouteGeom.positionAlongLine(rteMeasure)

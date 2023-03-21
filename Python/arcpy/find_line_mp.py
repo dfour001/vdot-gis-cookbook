@@ -50,7 +50,7 @@ def get_line_mp(inputPolyline, lrs, rte_nm):
 
         # Check for multipart geometry.  If multipart, find closest part to
         # ensure that the correct MP is returned
-        if geom.isMultipart:
+        if RouteGeom.isMultipart:
             # Get list of parts
             parts = [arcpy.Polyline(RouteGeom[i], has_m=True) for i in range(RouteGeom.partCount)]
 
